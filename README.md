@@ -1,6 +1,6 @@
 # Testing Framework for Chrome Extensions
 
-A three-stage prompt framework for using an LLM or coding agent to test an existing Chrome extension responsibly — without letting it rewrite the app, chase artificial coverage, or replace human judgement.
+A four-stage prompt framework for using an LLM or coding agent to test an existing Chrome extension responsibly — without letting it rewrite the app, chase artificial coverage, or replace human judgement.
 
 Each stage is a standalone, reusable prompt. They are meant to be run in sequence, feeding the output of one stage into the next.
 
@@ -13,6 +13,9 @@ Each stage is a standalone, reusable prompt. They are meant to be run in sequenc
 
 3. Taking the Leap
    → Which parts of that gap can a coding agent safely take over?
+
+4. Final Landing
+   → Turn all of the above into an executive briefing and decision.
 ```
 
 ## Why this exists
